@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel serve src/index.html"
+    "serve": "parcel serve src/index.html",
+    "build":"parcel build src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
